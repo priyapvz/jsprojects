@@ -3,7 +3,7 @@
 var movie1;
 
 movie1 = {
-  title: "Inside Out",
+  title: "Inside Out 2",
   actors: "Amy Poehler, Bill Hader",
   directors: "Pete Doctor, Ronaldo Del Carmen"
 };
