@@ -3,13 +3,17 @@
 var book;
 
 book = {
-  title     : "The Hobbit",
+  title     : {
+	id: 1,
+	name: "test"
+  },
 	author    : "J. R. R. Tolkien",
 	published : 1937
 };
 
 console.log(book.title);
 console.log(book.author);
+console.log(book.published);
 
 
 

@@ -1,10 +1,19 @@
 // Creating an empty object
 
-var book;
-
-book = {};
+let book = {
 
 
+
+
+
+
+
+
+
+    
+};
+
+console.log(book);
 /* Further Adventures
  *
  * 1) Log book to the console.

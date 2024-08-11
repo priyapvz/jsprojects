@@ -1,8 +1,9 @@
 // A player object
 
-var player;
+var player1;
+var palyer2;
 
-player = {
+player1 = {
     name: "Kandra",
     health: 50,
     place: "The Dungeon of Doom",
@@ -14,7 +15,9 @@ console.log(player.name + " is in " + player.place);
 console.log(player.name + " has health " + player.health);
 console.log("Items: " + player.items);
 
-
+player2 = {
+    
+}
 
 /* Further Adventures
  *

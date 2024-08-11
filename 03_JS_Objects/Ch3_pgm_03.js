@@ -1,15 +1,25 @@
 // A book as an object
 
-var book;
+var book1;
+var book2;
 
-book = {
-    title : "The Hobbit",
+book1 = {
+    title : {
+        name: "eg",
+        Id: 1
+    },
     author : "J. R. R. Tolkien",
     published : 1937
 };
 
-console.log(book);
+book2 = {
+    title : "Debug",
+    author : "John",
+    published : 1938
+};
 
+console.log(book1);
+console.log(book2);
 
 
 /* Further Adventures

@@ -10,6 +10,12 @@ var questionAndAnswer = {
 	marksForQuestion: 2
 };
 
+console.log(questionAndAnswer);
+console.log(questionAndAnswer.question);
+console.log("My answer is " + questionAndAnswer.answer3);
+console.log("You  answer the correct answer " + questionAndAnswer.correctAnswer );
+
+
 
 
 /* Further Adventures
