@@ -3,6 +3,8 @@
 var movie1;
 var movie2;
 var movie3;
+var movie4;
+var movie5;
 var movie;
 var showMovieInfo;
 
@@ -24,6 +26,18 @@ movie3 = {
     directors: "J.J.Abrams"
 };
 
+movie4 = {
+    title: "Indian2",
+    actors: "kamal hasan, siddharth",
+    directors: "shankar"
+};
+
+movie5 = {
+    title: "jailer",
+    actors: "rajinikanth, ramyakrish",
+    directors: "nelson"
+};
+
 showMovieInfo = function () {
     console.log("Movie information for " + movie.title);
     console.log("------------------------------");
@@ -39,6 +53,12 @@ movie = movie2;
 showMovieInfo();
 
 movie = movie3;
+showMovieInfo();
+
+movie = movie4;
+showMovieInfo();
+
+movie = movie5;
 showMovieInfo();
 
 

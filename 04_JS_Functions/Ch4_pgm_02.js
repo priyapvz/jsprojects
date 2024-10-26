@@ -3,6 +3,8 @@
 var movie1;
 var movie2;
 var movie3;
+var movie4;
+
 
 movie1 = {
   title: "Inside Out",
@@ -22,6 +24,12 @@ movie3 = {
   directors: "J.J.Abrams"
 };
 
+movie4 = {
+  title: "indian2",
+  actors: "kamal hasan, siddharth",
+  directors: "shankar"
+};
+
 console.log("Movie information for " + movie1.title);
 console.log("------------------------------");
 console.log("Actors: " + movie1.actors);
@@ -38,6 +46,12 @@ console.log("Movie information for " + movie3.title);
 console.log("------------------------------");
 console.log("Actors: " + movie3.actors);
 console.log("Directors: " + movie3.directors);
+console.log("------------------------------");
+
+console.log("Movie information for " + movie4.title);
+console.log("------------------------------");
+console.log("Actors: " + movie4.actors);
+console.log("Directors: " + movie4.directors);
 console.log("------------------------------");
 
 

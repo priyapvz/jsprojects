@@ -5,6 +5,7 @@ var player2;
 var player;
 var showPlayerInfo;
 
+
 player1 = {
     name: "Kandra",
     place: "The Dungeon of Doom",
@@ -25,6 +26,10 @@ showPlayerInfo = function () {
     console.log("------------------------------");
     console.log("");
 };
+
+showPlayerInfo = function () {
+    console.log( player.name + "where is in the" + player.place);
+}
 
 player = player1;
 showPlayerInfo();

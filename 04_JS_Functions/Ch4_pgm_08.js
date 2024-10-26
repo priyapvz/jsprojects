@@ -7,6 +7,9 @@ displayMenu = function () {
 	console.log("(1) Print log");
 	console.log("(2) Upload file");
 	console.log("(9) Quit");
+	console.log("(3) undo");
+	console.log("(7) choice");
+	
 };
 
 displayMenu();

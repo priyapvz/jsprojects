@@ -1,10 +1,18 @@
 // A simple function definition and assignment
 
-var sayHello;
+// var sayHello;
 
-sayHello = function () {
-    console.log("Hello World!");
-};
+// sayHello = function () {
+//     let add = 1+1;
+//     return add;
+// };
+
+function funcName() {
+    return 1;
+}
+
+// console.log(sayHello())
+console.log(funcName())
 
 
 

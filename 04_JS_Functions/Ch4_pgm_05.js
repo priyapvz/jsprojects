@@ -2,9 +2,13 @@
 
 var findTotal;
 var displayMenu;
+let number1=1,number2=2;
+
+
 
 findTotal = function () {
-	result = number1 + number2;
+	let result = number1 + number2;
+	return result;
 };
 
 displayMenu = function () {
@@ -14,6 +18,10 @@ displayMenu = function () {
 	console.log("(9) Quit");
 };
 
+findTotal();
+console.log("outside function", findTotal());
+
+displayMenu();
 
 
 /* Further Adventures
